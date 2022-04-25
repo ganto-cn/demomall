@@ -11,5 +11,10 @@ module.exports = defineConfig({
         'views': '@/views'
       }
     }
-  }
+  },
+  lintOnSave: true,
+  
+  publicPath: './',
+  outputDir: 'dist',
+  assetsDir: 'static'
 })

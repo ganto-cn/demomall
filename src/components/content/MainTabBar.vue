@@ -1,9 +1,9 @@
 <template>
   <tab-bar>
     <tab-bar-item path='/home' activeColor='blue'>首页</tab-bar-item>
-    <tab-bar-item path='/category' activeColor='blue'>书签</tab-bar-item>
-    <tab-bar-item path='/cart' activeColor='blue'>项目</tab-bar-item>
-    <tab-bar-item path='/profile' activeColor='blue'>关于</tab-bar-item>
+    <tab-bar-item path='/category' activeColor='blue'>分类</tab-bar-item>
+    <tab-bar-item path='/cart' activeColor='blue'>购物车</tab-bar-item>
+    <tab-bar-item path='/profile' activeColor='blue'>我的</tab-bar-item>
   </tab-bar>
 </template>
 
