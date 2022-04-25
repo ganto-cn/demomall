@@ -1,10 +1,11 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
-const Home = () => import('../views/home/Home')
-const Category = () => import('../views/category/Category')
-const Cart = () => import('../views/cart/Cart')
-const Profile = () => import('../views/profile/Profile')
+// 懒加载，只有在用到这个路由时才会加载出来
+const Home = () => import('views/home/Home')
+const Category = () => import('views/category/Category')
+const Cart = () => import('views/cart/Cart')
+const Profile = () => import('views/profile/Profile')
 
 Vue.use(VueRouter)
 
