@@ -9,10 +9,18 @@ npm install
 ```
 npm run serve
 ```
+Or
+```
+npm run s
+```
 
 ### Compiles and minifies for production
 ```
 npm run build
+```
+Or
+```
+npm run b
 ```
 
 ### Customize configuration
